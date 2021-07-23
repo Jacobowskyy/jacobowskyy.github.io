@@ -1,0 +1,47 @@
+body {
+margin: 0;
+color: #fef4ec;
+background-color: #010b13;
+font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.main {
+display: flex;
+align-items: center;
+justify-content:center;
+}
+
+.face {
+float: left;
+width: 12%;
+height: auto;
+border-radius: 20%;
+}
+
+.text {
+padding: 2%;
+}
+
+.name {
+font-size: 3.3vh;
+font-weight: 700;
+}
+
+.bio {
+font-size: 1.6vh;
+font-weight: 300;
+}
+
+.wip {
+font-weight: 200;
+letter-spacing: 1.5vh;
+color: rgba(254, 244, 236, 0.4);
+}
